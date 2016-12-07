@@ -1,16 +1,25 @@
-function reversal() {
+
+
+
+function reversal(str) {
+str = str.split("").reverse().join("");
+console.log(str);
+}
+
+function alphabits(str) {
 
 }
 
-function alphabits() {
+function palindrome(str) {
 
 }
 
-function palindrome() {
+function callFunctions() {
+  let testString = document.querySelector("input").value;
+console.log(testString);
 
-}
 
-var testString = "";
 reversal(testString);
 alphabits(testString);
 palindrome(testString);
+}
