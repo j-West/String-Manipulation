@@ -12,7 +12,10 @@ resultsDiv.appendChild(reversalH3);
 
 function alphabits(str) {
 str = str.split("").sort().join("");
-console.log(str);
+// console.log(str);
+let alphabeticalH3 = document.createElement("h3");
+alphabeticalH3.innerHTML = "Your input in alphabetical order is :" + str;
+resultsDiv.appendChild(alphabeticalH3);
 }
 
 function palindrome(str) {
