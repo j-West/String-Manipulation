@@ -5,7 +5,7 @@
     <title>Strings</title>
   </head>
   <body>
-    <form>
+    <form onsubmit="event.preventDefault(); callFunctions();">
       <input type="text" pattern="[a-zA-Z]+" title="Only letters are allowed">
       <button type="submit" name="button">Button</button>
     </form>
