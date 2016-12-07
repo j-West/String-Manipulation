@@ -12,7 +12,9 @@ console.log(str);
 }
 
 function palindrome(str) {
-
+  if (str === str.split("").reverse().join("")) {
+    console.log("Your string is a palidrome");
+  }
 }
 
 function callFunctions() {
