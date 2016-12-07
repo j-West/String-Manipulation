@@ -3,7 +3,11 @@ let resultsDiv = document.querySelector(".results-div");
 
 function reversal(str) {
 str = str.split("").reverse().join("");
-console.log(str);
+// console.log(str);
+let reversalH3 = document.createElement("h3");
+reversalH3.innerHTML = "Your input reversed is :" + str;
+resultsDiv.appendChild(reversalH3);
+
 }
 
 function alphabits(str) {
