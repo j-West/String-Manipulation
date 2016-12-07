@@ -29,8 +29,8 @@ function palindrome(str) {
 
 function callFunctions() {
   let testString = document.querySelector("input").value;
-
-  console.log(testString);
+  resultsDiv.innerHTML = "";
+  // console.log(testString);
 
 reversal(testString);
 alphabits(testString);
