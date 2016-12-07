@@ -1,4 +1,4 @@
-
+let resultsDiv = document.querySelector(".results-div");
 
 
 function reversal(str) {
