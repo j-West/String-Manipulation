@@ -20,7 +20,10 @@ resultsDiv.appendChild(alphabeticalH3);
 
 function palindrome(str) {
   if (str === str.split("").reverse().join("")) {
-    console.log("Your string is a palidrome");
+    // console.log("Your string is a palindrome");
+    let palindromeH3 = document.createElement("h3");
+    palindromeH3.innerHTML = "Your string is a palindrome";
+    resultsDiv.appendChild(palindromeH3);
   }
 }
 
